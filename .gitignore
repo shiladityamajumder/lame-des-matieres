@@ -1,0 +1,38 @@
+# Local verification, generated reports and browser profiles
+.qa/
+.cache/
+coverage/
+playwright-report/
+test-results/
+
+# Dependencies and build output (the site itself has no build step)
+node_modules/
+dist/
+build/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.py[cod]
+
+# Keep website assets and README screenshots tracked.
